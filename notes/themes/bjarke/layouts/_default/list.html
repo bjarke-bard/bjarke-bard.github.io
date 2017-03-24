@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+<body>
+  {{ partial "header.html" . }}
+  <article>
+    {{- range first 10 .Data.Pages }}
+      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    {{- end }}
+  </article>
+  {{ partial "footer.html" . }}
+</body>
+</html>

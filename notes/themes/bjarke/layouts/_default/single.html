@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+<body>
+  {{ partial "header.html" . }}
+  <article>
+    <h6>{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
+    {{ .Content }}
+  </article>
+  {{ partial "footer.html" . }}
+</body>
+</html>

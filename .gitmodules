@@ -1,0 +1,4 @@
+[submodule "notes/public"]
+	path = notes/public
+	url = git@github.com:bjarke-bard/bjarke-bard.github.io.git
+	branch = master
