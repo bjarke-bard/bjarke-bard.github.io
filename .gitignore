@@ -1,4 +1,5 @@
 notes/public
+notes/public/**
 
 *.class
 
