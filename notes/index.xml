@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Bjarke Notes</title>
+    <link>http://bjarke-bard.github.io/notes/index.xml</link>
+    <description>Recent content in Notes on Bjarke Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Mar 2017 12:04:55 +0100</lastBuildDate>
+    <atom:link href="http://bjarke-bard.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>hugo minimal setup</title>
+      <link>http://bjarke-bard.github.io/notes/hugo-minimal-setup/</link>
+      <pubDate>Fri, 24 Mar 2017 12:04:55 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/notes/hugo-minimal-setup/</guid>
+      <description>&lt;p&gt;hugo new site &lt;site-name&gt;
+hugo new post/hugo-minimal-setup.md&lt;/p&gt;
+
+&lt;p&gt;pick theme from
+&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(cd themes; git clone &lt;a href=&#34;https://github.com/comfusion/after-dark&#34;&gt;https://github.com/comfusion/after-dark&lt;/a&gt;)
+hugo serve &amp;ndash;theme=after-dark&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>keyboard shortcuts vim</title>
+      <link>http://bjarke-bard.github.io/notes/keyboard-shortcuts-vim/</link>
+      <pubDate>Fri, 24 Mar 2017 11:56:33 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/notes/keyboard-shortcuts-vim/</guid>
+      <description>
+
+&lt;h3 id=&#34;delete-text&#34;&gt;Delete text&lt;/h3&gt;
+
+&lt;p&gt;dw delete word
+dd delete line
+3dd delete three lines&lt;/p&gt;
+
+&lt;h3 id=&#34;copy-paste-text&#34;&gt;Copy/Paste text&lt;/h3&gt;
+
+&lt;p&gt;yy copy line
+p paste line&lt;/p&gt;
+
+&lt;h3 id=&#34;undo-redo&#34;&gt;Undo/Redo&lt;/h3&gt;
+
+&lt;p&gt;u undo
+Ctrl+r redo&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
