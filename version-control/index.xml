@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Version-Controls on Bjarke Notes</title>
+    <link>http://bjarke-bard.github.io/version-control/index.xml</link>
+    <description>Recent content in Version-Controls on Bjarke Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Mar 2017 11:56:33 +0100</lastBuildDate>
+    <atom:link href="http://bjarke-bard.github.io/version-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Checkout Subdirectory</title>
+      <link>http://bjarke-bard.github.io/version-control/git/Checkout-Subdirectory/</link>
+      <pubDate>Fri, 24 Mar 2017 11:56:33 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/version-control/git/Checkout-Subdirectory/</guid>
+      <description>&lt;p&gt;When you don&amp;rsquo;t want the whole repo you can with &amp;ldquo;core.sparsecheckout&amp;rdquo; checkout only part of a repo.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir &amp;lt;repo&amp;gt; &amp;amp;&amp;amp; cd &amp;lt;repo&amp;gt;
+
+git init
+
+git remote add –f origin &amp;lt;url&amp;gt;
+
+git config core.sparsecheckout true
+
+echo some/dir/ &amp;gt;&amp;gt; .git/info/sparse-checkout
+
+git pull &amp;lt;remote&amp;gt; &amp;lt;branch&amp;gt;
+
+git read-tree -mu HEAD
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/&#34;&gt;http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

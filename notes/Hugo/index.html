@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>hugo minimal setup</title>
+    <title>Hugo</title>
 
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -18,19 +18,22 @@
 
 <body>
   <header>
-  <h1>hugo minimal setup</h1>
+  <h1>Hugo</h1>
   <h4><a href="http://bjarke-bard.github.io/">Home</a></h4>
 </header>
 
   <article class=article >
-    <p>hugo new site <site-name>
-hugo new post/hugo-minimal-setup.md</p>
+    <pre><code>hugo new site The-Site
+hugo new Notes/The-Note.md
 
-<p>pick theme from
-<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+pick theme from
+https://themes.gohugo.io/
 
-<p>(cd themes; git clone <a href="https://github.com/comfusion/after-dark">https://github.com/comfusion/after-dark</a>)
-hugo serve &ndash;theme=after-dark</p>
+(cd themes; git clone https://github.com/comfusion/after-dark)
+hugo server --theme=after-dark
+
+hugo
+</code></pre>
 
     <h6 class=modifiedDate >Fri, Mar 24, 2017</h6>
   </article>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugos on Bjarke Notes</title>
+    <link>http://bjarke-bard.github.io/hugo/index.xml</link>
+    <description>Recent content in Hugos on Bjarke Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Mar 2017 12:04:55 +0100</lastBuildDate>
+    <atom:link href="http://bjarke-bard.github.io/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://bjarke-bard.github.io/hugo/Hugo/</link>
+      <pubDate>Fri, 24 Mar 2017 12:04:55 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/hugo/Hugo/</guid>
+      <description>&lt;p&gt;Static site generator&lt;/p&gt;
+
+&lt;h3 id=&#34;create&#34;&gt;Create&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;&amp;gt; hugo new site The-Site
+&amp;gt; hugo new Notes/The-Note.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;style&#34;&gt;Style&lt;/h3&gt;
+
+&lt;p&gt;Pick theme from
+&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;run&#34;&gt;Run&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;&amp;gt; (cd themes; git clone https://github.com/comfusion/after-dark)
+&amp;gt; hugo server --theme=after-dark
+&amp;gt; hugo
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

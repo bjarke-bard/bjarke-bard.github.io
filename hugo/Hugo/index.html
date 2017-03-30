@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>404 Page not found</title>
+    <title>Hugo</title>
 
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -20,14 +20,36 @@
 </head>
 
 <body>
-<header>
-  <h1>404 Page not found</h1>
+  <header>
+  <h1>Hugo</h1>
   <h4><a href="http://bjarke-bard.github.io/">Home</a></h4>
 </header>
 
-  <h1>404</h1>
-  <p>Not Found</p>
-<footer>
+  <article class=article >
+    <p>Static site generator</p>
+
+<h3 id="create">Create</h3>
+
+<pre><code class="language-bash">&gt; hugo new site The-Site
+&gt; hugo new Notes/The-Note.md
+</code></pre>
+
+<p></p>
+
+<h3 id="style">Style</h3>
+
+<p>Pick theme from
+<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+
+<h3 id="run">Run</h3>
+
+<pre><code class="language-bash">&gt; (cd themes; git clone https://github.com/comfusion/after-dark)
+&gt; hugo server --theme=after-dark
+&gt; hugo
+</code></pre>
+    <h6 class=modifiedDate >Fri, Mar 24, 2017</h6>
+  </article>
+  <footer>
     Bjarke Bard Solutions
 
 

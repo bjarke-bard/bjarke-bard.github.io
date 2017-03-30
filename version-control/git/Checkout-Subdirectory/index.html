@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>404 Page not found</title>
+    <title>Checkout Subdirectory</title>
 
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -20,14 +20,35 @@
 </head>
 
 <body>
-<header>
-  <h1>404 Page not found</h1>
+  <header>
+  <h1>Checkout Subdirectory</h1>
   <h4><a href="http://bjarke-bard.github.io/">Home</a></h4>
 </header>
 
-  <h1>404</h1>
-  <p>Not Found</p>
-<footer>
+  <article class=article >
+    <p>When you don&rsquo;t want the whole repo you can with &ldquo;core.sparsecheckout&rdquo; checkout only part of a repo.</p>
+
+<p></p>
+
+<pre><code class="language-bash">mkdir &lt;repo&gt; &amp;&amp; cd &lt;repo&gt;
+
+git init
+
+git remote add –f origin &lt;url&gt;
+
+git config core.sparsecheckout true
+
+echo some/dir/ &gt;&gt; .git/info/sparse-checkout
+
+git pull &lt;remote&gt; &lt;branch&gt;
+
+git read-tree -mu HEAD
+</code></pre>
+
+<p><a href="http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/">http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/</a></p>
+    <h6 class=modifiedDate >Fri, Mar 24, 2017</h6>
+  </article>
+  <footer>
     Bjarke Bard Solutions
 
 

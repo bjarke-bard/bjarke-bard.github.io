@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keyboard-Shortcuts on Bjarke Notes</title>
+    <link>http://bjarke-bard.github.io/keyboard-shortcuts/index.xml</link>
+    <description>Recent content in Keyboard-Shortcuts on Bjarke Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Mar 2017 16:35:34 +0100</lastBuildDate>
+    <atom:link href="http://bjarke-bard.github.io/keyboard-shortcuts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MAC</title>
+      <link>http://bjarke-bard.github.io/keyboard-shortcuts/MAC/</link>
+      <pubDate>Sat, 25 Mar 2017 16:35:34 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/keyboard-shortcuts/MAC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDEA</title>
+      <link>http://bjarke-bard.github.io/keyboard-shortcuts/IDEA/</link>
+      <pubDate>Sat, 25 Mar 2017 16:35:15 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/keyboard-shortcuts/IDEA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VIM</title>
+      <link>http://bjarke-bard.github.io/keyboard-shortcuts/VIM/</link>
+      <pubDate>Fri, 24 Mar 2017 11:56:33 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/keyboard-shortcuts/VIM/</guid>
+      <description>&lt;h3 id=&#34;delete-text&#34;&gt;Delete text&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;dw delete word&lt;/li&gt;
+&lt;li&gt;dd delete line&lt;/li&gt;
+&lt;li&gt;3dd delete three lines&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;copy-paste-text&#34;&gt;Copy/Paste text&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;yy copy line&lt;/li&gt;
+&lt;li&gt;p paste line&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;undo-redo&#34;&gt;Undo/Redo&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;u undo&lt;/li&gt;
+&lt;li&gt;Ctrl+r redo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

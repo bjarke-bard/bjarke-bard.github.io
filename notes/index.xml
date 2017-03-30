@@ -6,49 +6,102 @@
     <description>Recent content in Notes on Bjarke Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Mar 2017 12:04:55 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 25 Mar 2017 16:35:34 +0100</lastBuildDate>
     <atom:link href="http://bjarke-bard.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>hugo minimal setup</title>
-      <link>http://bjarke-bard.github.io/notes/hugo-minimal-setup/</link>
+      <title>MAC</title>
+      <link>http://bjarke-bard.github.io/notes/keyboard-shortcuts/MAC/</link>
+      <pubDate>Sat, 25 Mar 2017 16:35:34 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/notes/keyboard-shortcuts/MAC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDEA</title>
+      <link>http://bjarke-bard.github.io/notes/keyboard-shortcuts/IDEA/</link>
+      <pubDate>Sat, 25 Mar 2017 16:35:15 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/notes/keyboard-shortcuts/IDEA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://bjarke-bard.github.io/notes/Hugo/</link>
       <pubDate>Fri, 24 Mar 2017 12:04:55 +0100</pubDate>
       
-      <guid>http://bjarke-bard.github.io/notes/hugo-minimal-setup/</guid>
-      <description>&lt;p&gt;hugo new site &lt;site-name&gt;
-hugo new post/hugo-minimal-setup.md&lt;/p&gt;
+      <guid>http://bjarke-bard.github.io/notes/Hugo/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;hugo new site The-Site
+hugo new Notes/The-Note.md
 
-&lt;p&gt;pick theme from
-&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/p&gt;
+pick theme from
+https://themes.gohugo.io/
 
-&lt;p&gt;(cd themes; git clone &lt;a href=&#34;https://github.com/comfusion/after-dark&#34;&gt;https://github.com/comfusion/after-dark&lt;/a&gt;)
-hugo serve &amp;ndash;theme=after-dark&lt;/p&gt;
+(cd themes; git clone https://github.com/comfusion/after-dark)
+hugo server --theme=after-dark
+
+hugo
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
     <item>
-      <title>keyboard shortcuts vim</title>
-      <link>http://bjarke-bard.github.io/notes/keyboard-shortcuts-vim/</link>
+      <title>Checkout Subdirectory</title>
+      <link>http://bjarke-bard.github.io/notes/git/Checkout-Subdirectory/</link>
       <pubDate>Fri, 24 Mar 2017 11:56:33 +0100</pubDate>
       
-      <guid>http://bjarke-bard.github.io/notes/keyboard-shortcuts-vim/</guid>
+      <guid>http://bjarke-bard.github.io/notes/git/Checkout-Subdirectory/</guid>
+      <description>&lt;p&gt;When you don&amp;rsquo;t want the whole repo you can with &amp;ldquo;core.sparsecheckout&amp;rdquo; checkout only part of a repo.&lt;/p&gt;
+
+&lt;p&gt;mkdir &lt;repo&gt; &amp;amp;&amp;amp; cd &lt;repo&gt;&lt;/p&gt;
+
+&lt;p&gt;git init&lt;/p&gt;
+
+&lt;p&gt;git remote add –f origin &lt;url&gt;&lt;/p&gt;
+
+&lt;p&gt;git config core.sparsecheckout true&lt;/p&gt;
+
+&lt;p&gt;echo some/dir/ &amp;gt;&amp;gt; .git/info/sparse-checkout&lt;/p&gt;
+
+&lt;p&gt;git pull &lt;remote&gt; &lt;branch&gt;&lt;/p&gt;
+
+&lt;p&gt;git read-tree -mu HEAD&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/&#34;&gt;http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VIM</title>
+      <link>http://bjarke-bard.github.io/notes/keyboard-shortcuts/VIM/</link>
+      <pubDate>Fri, 24 Mar 2017 11:56:33 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/notes/keyboard-shortcuts/VIM/</guid>
       <description>
 
 &lt;h3 id=&#34;delete-text&#34;&gt;Delete text&lt;/h3&gt;
 
-&lt;p&gt;dw delete word
-dd delete line
-3dd delete three lines&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dw delete word&lt;/li&gt;
+&lt;li&gt;dd delete line&lt;/li&gt;
+&lt;li&gt;3dd delete three lines&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;copy-paste-text&#34;&gt;Copy/Paste text&lt;/h3&gt;
 
-&lt;p&gt;yy copy line
-p paste line&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;yy copy line&lt;/li&gt;
+&lt;li&gt;p paste line&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;undo-redo&#34;&gt;Undo/Redo&lt;/h3&gt;
 
-&lt;p&gt;u undo
-Ctrl+r redo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;u undo&lt;/li&gt;
+&lt;li&gt;Ctrl+r redo&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

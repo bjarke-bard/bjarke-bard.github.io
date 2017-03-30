@@ -15,14 +15,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     
     
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/darcula.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
+  <section id="header">
+    <header>
   <h1>Bjarke Notes</h1>
-
-    <h4><a href="http://bjarke-bard.github.io/notes/hugo-minimal-setup/">hugo minimal setup</a></h4>
-    <h4><a href="http://bjarke-bard.github.io/notes/keyboard-shortcuts-vim/">keyboard shortcuts vim</a></h4>
   <h4><a href="http://bjarke-bard.github.io/">Home</a></h4>
+</header>
 
+  </section>
+  <nav>
+            <header>
+                <a href="https://github.com/bjarke-bard" target="_parent">
+                    <h1>Bjarke Bard</h1>
+                </a>
+                <a href="http://manifesto.softwarecraftsmanship.org/">
+                    <h2>Software Craftsman</h2>
+                </a>
+            </header>
+
+            <section id="menu-nav"></section>
+  </nav>
+
+  <div id="content">
+        <section id="content-section">
+          <article class=article >
+            
+              <h2 class="notes-section">Hugo</h2>
+              
+                 <h3><a href="http://bjarke-bard.github.io/hugo/Hugo/">Hugo</a></h3>
+                 <div><p>Static site generator</p>
+
+<h3 id="create">Create</h3>
+
+<pre><code class="language-bash">&gt; hugo new site The-Site
+&gt; hugo new Notes/The-Note.md
+</code></pre>
+
+<p></p></div>
+                 
+                 <div class="read-more-link">
+                   <a href="/hugo/Hugo/">Read More…</a>
+                 </div>
+                 
+              
+            
+              <h2 class="notes-section">Keyboard-Shortcuts</h2>
+              
+                 <h3><a href="http://bjarke-bard.github.io/keyboard-shortcuts/MAC/">MAC</a></h3>
+                 <div></div>
+                 
+              
+                 <h3><a href="http://bjarke-bard.github.io/keyboard-shortcuts/IDEA/">IDEA</a></h3>
+                 <div></div>
+                 
+              
+                 <h3><a href="http://bjarke-bard.github.io/keyboard-shortcuts/VIM/">VIM</a></h3>
+                 <div><h3 id="delete-text">Delete text</h3>
+
+<ul>
+<li>dw delete word</li>
+<li>dd delete line</li>
+<li>3dd delete three lines</li>
+</ul>
+
+<h3 id="copy-paste-text">Copy/Paste text</h3>
+
+<ul>
+<li>yy copy line</li>
+<li>p paste line</li>
+</ul>
+
+<h3 id="undo-redo">Undo/Redo</h3>
+
+<ul>
+<li>u undo</li>
+<li>Ctrl+r redo</li>
+</ul>
+
+<p></p></div>
+                 
+              
+            
+              <h2 class="notes-section">Version-Control</h2>
+              
+                 <h3><a href="http://bjarke-bard.github.io/version-control/git/Checkout-Subdirectory/">Checkout Subdirectory</a></h3>
+                 <div><p>When you don&rsquo;t want the whole repo you can with &ldquo;core.sparsecheckout&rdquo; checkout only part of a repo.</p>
+
+<p></p></div>
+                 
+                 <div class="read-more-link">
+                   <a href="/version-control/git/Checkout-Subdirectory/">Read More…</a>
+                 </div>
+                 
+              
+            
+          </article>
+        </section>
+  </div>
+
+  <section>
+    <footer>
+    Bjarke Bard Solutions
+
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+
+    </script>
+    <script>
+
+
+<!--
+        $(document).ready(function() {
+            var prettyprint = false;
+            $("pre code").parent().each(function() {
+                $(this).addClass('prettyprint linenums');
+                prettyprint = true;
+            });
+            if ( prettyprint ) {
+                $.getScript("https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=desert", function() { prettyPrint() });
+            }
+        });-->
+    </script>
+
+
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&amp;skin=sunburst" >
+
+    </script>
+</footer>
+
+
+  </section>
 </body>
 </html>

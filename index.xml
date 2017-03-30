@@ -6,50 +6,113 @@
     <description>Recent content on Bjarke Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Mar 2017 12:04:55 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 25 Mar 2017 16:35:34 +0100</lastBuildDate>
     <atom:link href="http://bjarke-bard.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>hugo minimal setup</title>
-      <link>http://bjarke-bard.github.io/notes/hugo-minimal-setup/</link>
-      <pubDate>Fri, 24 Mar 2017 12:04:55 +0100</pubDate>
+      <title>MAC</title>
+      <link>http://bjarke-bard.github.io/keyboard-shortcuts/MAC/</link>
+      <pubDate>Sat, 25 Mar 2017 16:35:34 +0100</pubDate>
       
-      <guid>http://bjarke-bard.github.io/notes/hugo-minimal-setup/</guid>
-      <description>&lt;p&gt;hugo new site &lt;site-name&gt;
-hugo new post/hugo-minimal-setup.md&lt;/p&gt;
-
-&lt;p&gt;pick theme from
-&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;(cd themes; git clone &lt;a href=&#34;https://github.com/comfusion/after-dark&#34;&gt;https://github.com/comfusion/after-dark&lt;/a&gt;)
-hugo serve &amp;ndash;theme=after-dark&lt;/p&gt;
-</description>
+      <guid>http://bjarke-bard.github.io/keyboard-shortcuts/MAC/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>keyboard shortcuts vim</title>
-      <link>http://bjarke-bard.github.io/notes/keyboard-shortcuts-vim/</link>
+      <title>IDEA</title>
+      <link>http://bjarke-bard.github.io/keyboard-shortcuts/IDEA/</link>
+      <pubDate>Sat, 25 Mar 2017 16:35:15 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/keyboard-shortcuts/IDEA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://bjarke-bard.github.io/hugo/Hugo/</link>
+      <pubDate>Fri, 24 Mar 2017 12:04:55 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/hugo/Hugo/</guid>
+      <description>&lt;p&gt;Static site generator&lt;/p&gt;
+
+&lt;h3 id=&#34;create&#34;&gt;Create&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;&amp;gt; hugo new site The-Site
+&amp;gt; hugo new Notes/The-Note.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;style&#34;&gt;Style&lt;/h3&gt;
+
+&lt;p&gt;Pick theme from
+&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;run&#34;&gt;Run&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;&amp;gt; (cd themes; git clone https://github.com/comfusion/after-dark)
+&amp;gt; hugo server --theme=after-dark
+&amp;gt; hugo
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Checkout Subdirectory</title>
+      <link>http://bjarke-bard.github.io/version-control/git/Checkout-Subdirectory/</link>
       <pubDate>Fri, 24 Mar 2017 11:56:33 +0100</pubDate>
       
-      <guid>http://bjarke-bard.github.io/notes/keyboard-shortcuts-vim/</guid>
-      <description>
+      <guid>http://bjarke-bard.github.io/version-control/git/Checkout-Subdirectory/</guid>
+      <description>&lt;p&gt;When you don&amp;rsquo;t want the whole repo you can with &amp;ldquo;core.sparsecheckout&amp;rdquo; checkout only part of a repo.&lt;/p&gt;
 
-&lt;h3 id=&#34;delete-text&#34;&gt;Delete text&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;dw delete word
-dd delete line
-3dd delete three lines&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir &amp;lt;repo&amp;gt; &amp;amp;&amp;amp; cd &amp;lt;repo&amp;gt;
+
+git init
+
+git remote add –f origin &amp;lt;url&amp;gt;
+
+git config core.sparsecheckout true
+
+echo some/dir/ &amp;gt;&amp;gt; .git/info/sparse-checkout
+
+git pull &amp;lt;remote&amp;gt; &amp;lt;branch&amp;gt;
+
+git read-tree -mu HEAD
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/&#34;&gt;http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VIM</title>
+      <link>http://bjarke-bard.github.io/keyboard-shortcuts/VIM/</link>
+      <pubDate>Fri, 24 Mar 2017 11:56:33 +0100</pubDate>
+      
+      <guid>http://bjarke-bard.github.io/keyboard-shortcuts/VIM/</guid>
+      <description>&lt;h3 id=&#34;delete-text&#34;&gt;Delete text&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;dw delete word&lt;/li&gt;
+&lt;li&gt;dd delete line&lt;/li&gt;
+&lt;li&gt;3dd delete three lines&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;copy-paste-text&#34;&gt;Copy/Paste text&lt;/h3&gt;
 
-&lt;p&gt;yy copy line
-p paste line&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;yy copy line&lt;/li&gt;
+&lt;li&gt;p paste line&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;undo-redo&#34;&gt;Undo/Redo&lt;/h3&gt;
 
-&lt;p&gt;u undo
-Ctrl+r redo&lt;/p&gt;
-</description>
+&lt;ul&gt;
+&lt;li&gt;u undo&lt;/li&gt;
+&lt;li&gt;Ctrl+r redo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
