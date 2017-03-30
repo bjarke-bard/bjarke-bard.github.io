@@ -3,9 +3,9 @@
 {{ partial "head.html" . }}
 <body>
   {{ partial "header.html" . }}
-  <article>
-    <h6>{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
+  <article class=article >
     {{ .Content }}
+    <h6 class=modifiedDate >{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
   </article>
   {{ partial "footer.html" . }}
 </body>

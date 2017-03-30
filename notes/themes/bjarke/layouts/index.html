@@ -2,10 +2,43 @@
 <html>
 {{ partial "head.html" . }}
 <body>
-  {{ partial "header.html" . }}
-  {{- range first 10 .Data.Pages }}
-    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-  {{- end }}
-  {{ partial "footer.html" . }}
+  <section id="header">
+    {{ partial "header.html" . }}
+  </section>
+  <nav>
+            <header>
+                <a href="https://github.com/bjarke-bard" target="_parent">
+                    <h1>Bjarke Bard</h1>
+                </a>
+                <a href="http://manifesto.softwarecraftsmanship.org/">
+                    <h2>Software Craftsman</h2>
+                </a>
+            </header>
+
+            <section id="menu-nav"></section>
+  </nav>
+
+  <div id="content">
+        <section id="content-section">
+          <article class=article >
+            {{ range .Data.Pages.GroupBy "Section" }}
+              <h2 class="notes-section">{{ .Key }}</h2>
+              {{ range .Pages }}
+                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                 <div>{{ .Summary }}</div>
+                 {{ if .Truncated }}
+                 <div class="read-more-link">
+                   <a href="{{ .RelPermalink }}">Read More…</a>
+                 </div>
+                 {{ end }}
+              {{ end }}
+            {{ end }}
+          </article>
+        </section>
+  </div>
+
+  <section>
+    {{ partial "footer.html" . }}
+  </section>
 </body>
 </html>

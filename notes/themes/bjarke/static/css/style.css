@@ -139,6 +139,9 @@ header h2 {
 
 }
 
+.notes-section {
+    background-color: #00acc1;
+}
 
 
 article {
@@ -237,36 +240,19 @@ li {
 }
 
 /* Code
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
 pre {
     white-space: pre-wrap;
     font-family: monospace;
+    background: #2B2B2B;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
     font-style: normal;
     padding: .2rem .5rem;
     margin: 0 .2rem;
     font-size: 90%;
-    background: #F1F1F1;
-    border: 1px solid #E1E1E1;
-    border-radius: 4px;
 }
-
-/*
-code {
-    padding: .2rem .5rem;
-    margin: 0 .2rem;
-    font-size: 90%;
-    /* white-space: nowrap; */
-    /*background: #F1F1F1;
-    border: 1px solid #E1E1E1;
-    border-radius: 4px;*/ /*
-}*/
-/*
-pre > code {
-    display: block;
-    padding: 1rem 1.5rem;
-    white-space: pre;
-}*/
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

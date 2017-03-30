@@ -1,2 +1,8 @@
 # bjarke-bard.github.io
-bjarke-bard.github.io
+
+
+```
+hugo new Notes/The-Note.md
+
+hugo
+```
